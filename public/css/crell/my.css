@@ -1,0 +1,18 @@
+@charset "utf-8";
+.my-main{
+    text-align: center;
+}
+.my-title {
+    font-size: 50px;
+}
+.my-button {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+    border: 0;
+    width: 60%;
+    background:#fff;
+    color:#fe5b4a;
+    margin-top: 3px;
+}

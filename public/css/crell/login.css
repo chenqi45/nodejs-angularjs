@@ -1,0 +1,104 @@
+@charset "utf-8";
+.login-logo {
+    text-align: center;
+}
+.login-logo a {
+    margin: 0 auto;
+    display: block;
+}
+.login-logo a img {
+    width: 100px;
+    height: 100px;
+}
+.login-content {
+    margin-top: 14px;
+    padding: 0 28px;
+}
+.login-content .item {
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.login-content .item i{
+    font-size: 16px;
+    font-family: 'iconfont';
+    text-align: center;
+    width: 22px;
+    color: #333333;
+    float: left;
+}
+.login-content .item i.iconfont {
+    font-size: 30px;
+}
+.login-content .tips{
+    width: 100%;
+    line-height: 10px;
+    color: #ff4c39;
+}
+.p-input {
+    padding-left: 20px;
+    float: left;
+}
+.login-content .item input {
+    width: 100%;
+    line-height: 20px;
+    border: 0;
+    margin: 0;
+    list-style: none;
+    background: none;
+    font-size: 16px;
+    outline: none;
+    box-sizing: content-box;
+}
+.pass-text {
+    height: 20px;
+    line-height: 20px;
+    color: #333333;
+}
+.selected {
+    margin-top: 5px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 6px;
+    color: #808281;
+    cursor: pointer;
+}
+.selected input[type="checkbox"]:checked {
+    border-color: #fe5b4a;
+    background-color: #fe5b4a;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+}
+.selected span {
+    margin-left: 4px;
+    display: inline-block;
+}
+.login-button {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 11px;
+    border: 0;
+    width: 100%;
+    background:#fe5b4a;
+    color:#fff;
+    margin-top: 3px;
+}
+.pass-text {
+    height: 30px;
+    line-height: 30px;
+    color: #333333;
+    margin-top: 5px;
+}
+.pass-text a:link, .pass-text a:visited {
+    color: #333;
+}
+.pass-text-fl {
+    float: left;
+    font-size: 8px;
+}
+.pass-text-fr {
+    float: right;
+    font-size: 8px;
+}

@@ -1,0 +1,42 @@
+<div class="cart-main">
+    <header class="cart-header">
+        <div class="cart-title-left">
+            <checkbox ng-click="sumBalance($event.currentTarget)" cart-list="cartList"></checkbox>
+            <label>全选</label>
+        </div>
+        <a href="" class="cart-title-right">编辑全部</a>
+        <div class="head-title">购物车</div>
+    </header>
+    <div class="content">
+        <ul class="cart-ul">
+            <li>
+                <div class="cart-show-list">
+                    <div class="cart-item" ng-repeat="cart in cartList | cartListFilter">
+                        <checkbox ng-click="sumBalance($event.currentTarget)" cart-id="cart.business.businessId" cart-list="cartList" i="$index"></checkbox>
+                        <div class="cart-cell">
+                            <div class="cart-item-img"><img bn-lazy-src="{{domain+cart.business.img}}" src="/resources/images/lazy.png"></div>
+                            <div class="cart-item-content">
+                                <a href="#">{{cart.business.gameName | cartNameFilter}}</a>
+                                <div class="cart-item-money">
+                                    <div class="money">{{cart.business.price | currency:'￥'}}</div>
+                                    <div class="number">X <span>{{cart.num}}</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="cart-op">
+            <a href="#" class="file-button" ng-click="goBalance()">去结算({{cartList.length}})</a>
+            <div class="file-left">
+                <div class="cart-show-left">
+                    <div class="fl">合计：</div>
+                    <div class="cart-show-money">{{balance}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

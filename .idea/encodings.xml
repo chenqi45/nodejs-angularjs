@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/config.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/ReturnBody.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/bootstrap.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/crell" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/crell/base.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/css/crell/base.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/css/crell/cart.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/css/crell/iconfont" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/css/crell/index.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/css/crell/login.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/css/crell/my.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/css/crell/normalize.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/css/crell/register.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/css/iscroll.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/iscroll2.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/myweui.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/weui.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/weui.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/favicon.ico" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/.gitkeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/daota.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/icon_nav_actionSheet.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/icon_nav_article.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/icon_nav_button.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/icon_nav_cell.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/icon_nav_dialog.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/icon_nav_icons.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/icon_nav_msg.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/icon_nav_toast.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/lazy.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/moshou.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/vcode.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/images/xiaojingling.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/angular-route.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/angular.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/bootstrap.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/crell" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/fastclick.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/iscroll.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/jquery-2.1.3.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/jquery.cookie.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/jquery.lazyload.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/layzr.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/layzr.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/myweui.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/swiper.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/swiper.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/zepto.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/zepto.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/baseRoute.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/template.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/about.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/business.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/cart.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/error.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/index.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/login.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/main.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/my.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/order.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/register.html" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,49 @@
+<div class="register">
+    <form role="form" name="registerForm" ng-submit="register(registerForm.$valid)" class="form-horizontal" autocomplete="off" novalidate>
+        <div class="item-cell">
+            <span class="item-title">邮箱</span>
+            <div class="input-box">
+                <input class="form-input" id="userName" name="userName" ng-model="form.userName" type="email" required>
+            </div>
+        </div>
+        <div class="item-cell">
+            <span class="item-title">昵称</span>
+            <div class="input-box">
+                <input class="form-input" id="nickName" name="nickName" ng-model="form.nickName" type="text" required/>
+            </div>
+        </div>
+        <div class="item-cell">
+            <span class="item-title">密码</span>
+            <div class="input-box">
+                <input class="form-input" id="password" name="password" ng-model="form.password" ng-minlength="5" ng-blur="checkMatch()" type="password" required />
+            </div>
+        </div>
+        <div class="item-cell">
+            <span class="item-title">密码确认</span>
+            <div class="input-box">
+                <input class="form-input" id="passwordConfirm" name="passwordConfirm" ng-model="form.passwordConfirm" ng-minlength="5" ng-blur="checkMatch()" type="password" required/>
+            </div>
+        </div>
+        <div class="item-cell">
+            <span class="item-title">QQ</span>
+            <div class="input-box">
+                <input class="form-input" id="qq" name="qq" ng-model="form.qq" type="text" ng-pattern="/^\d{5,10}$/">
+            </div>
+        </div>
+        <div class="item-cell">
+            <span class="item-title">验证码</span>
+            <div class="input-box">
+                <input class="form-input" type="text" id="kaptcha" name="kaptcha" ng-model="form.kaptcha" minlength="4" maxlength="4" required/>
+                <img ng-src="/ajax/captcha-image" ng-click = "changeCaptcha($event)" title="看不清，点击换一张" height="32" />
+            </div>
+        </div>
+        <div class="tips">
+            <input type="checkbox" value="1" />&nbsp;同意XXXX协议
+        </div>
+        <div class="item-button">
+            <input class="login-button" type="submit" value="注册" />
+        </div>
+    </form>
+    <span class="login"><a href="/#/login">登录</a></span>
+</div>
+

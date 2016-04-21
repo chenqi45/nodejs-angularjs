@@ -1,0 +1,45 @@
+<nav>
+    <div class="icon">
+        <a href="">
+            <img src="{{domain}}index_icon1.png"/>
+            <div class="txt">我的账户</div>
+        </a>
+    </div>
+    <div class="icon">
+        <a href="">
+            <img src="{{domain}}index_icon2.png"/>
+            <div class="txt">优惠券</div>
+        </a>
+    </div>
+    <div class="icon">
+        <a href="">
+            <img src="{{domain}}index_icon3.png"/>
+            <div class="txt">我的订单</div>
+        </a>
+    </div>
+    <div class="icon">
+        <a href="">
+            <img src="{{domain}}index_icon4.png"/>
+            <div class="txt">分类</div>
+        </a>
+    </div>
+</nav>
+<section when-scrolled="loadMore()">
+    <div class="title">
+        <span class="txt">精品</span>
+    </div>
+    <ul class="item">
+        <li ng-repeat='business in businessList'>
+            <a href="/#/business/{{business.businessId}}">
+                <img bn-lazy-src="{{domain+business.img}}" src="/resources/images/lazy.png" alt="{{business.gameName}}"/>
+                <div class="txt">{{business.gameName}}</div>
+                <div class="price">市场价：{{business.price | currency:'￥':2}}</div>
+                <button class="buy" >立即购买</button>
+            </a>
+        </li>
+    </ul>
+</section>
+<footer>
+    <span>&copy; Crell 2016</span>
+    <a href="/#/about">关于我</a>
+</footer>

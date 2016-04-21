@@ -1,0 +1,53 @@
+@charset "utf-8";
+.register {
+    width: 100%;
+}
+.register .item-cell{
+    height: 40px;
+    background: #fff;
+    border-top: 1px solid #e2e0db;
+    padding-left: 12px;
+}
+.register .item-cell img {
+    width: 70px;
+    height: 30px;
+    margin-top: -10px;
+}
+.register .item-title{
+    line-height: 30px;
+    float: left;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.register .input-box{
+    padding-left: 80px;
+}
+.register .form-input{
+    width: 70%;
+    height: 40px;
+    border: none;
+    color: #393a3a;
+    padding: 8px 0;
+    outline: none;
+    background: none;
+    font-size: 16px;
+}
+.register .item-button{
+    margin: 15px 10px 10px;
+    padding: 0 1px;
+}
+.register .tips{
+    color: #928f8a;
+    font-size: 10px;
+    margin: 10px 1px 15px 10px;
+    line-height: 16px;
+}
+.register .login{
+    float: right;
+    line-height: 20px;
+    margin: 0 10px;
+}
+.register .login a {
+    font-size: 10px;
+    color: #3c3d3c;
+}
